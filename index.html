@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+        <div class="header-menu width-90">
+            <div class="header-icon-menu">
+                <button onclick="toggleNav()" class="header-btn-menu"><img src="/Images/Menu.svg" alt="" class="icon-width"></button>
+            </div>
+            <nav id="nav" class="hidden">
+                <ul>
+                    <li class="option-menu"><a href="#about-me">Sobre mí</a></li>
+                    <li class="option-menu"><a href="#skills">Habilidades</a></li>
+                    <li class="option-menu"><a href="#experience">Experiencia</a></li>
+                    <li class="option-menu"><a href="#portfolio">Portafolio</a></li>
+                    <li class="option-menu"><a href="#contact">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="front">
+            <div class="front-flex width-90">
+                <div class="front-title">
+                    <h1 class="msj-greeting">¡Hola soy <span class="color-blue">Edwin</span></h1>
+                    <h2 class="color-blue msj-dedication">Desarrollador Front End!</h2>
+                </div>
+                <div class="front-image">
+                    <img src="./Images/my-image.png" alt="" class="my-image">
+                </div>
+            </div>
+        </div>
+        <div class="about-me">
+            <div class="about-me-all width-90" id="about-me">
+                <div class="about-me-title">
+                    <h2 class="color-blue">Sobre mí</h2>
+                </div>
+                <div class="about-me-info">
+                    <p>Soy una persona que le gusta aprender dentro del mundo de la tecnología o fuera, con la capacidad de aprender rápido, tengo muchas ganas de crecer en este mundo desde que lo conocí en el 2021 me apasiona y aún hoy sigo buscando mejorarme cada día en conocimientos, también me gusta aportar un grano a los que les gustaría aprender, en cuanto al trabajo en equipo es de mi agrado ya que también me gusta conversar mientras diseño y/o programo</p>                
+                </div>
+                <div class="about-me-cv">
+                    <a href="./edwin.cv.pdf" download="edwin.cv" class="download-cv">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="skills width-90" id="skills">
+            <div class="skills-all">
+                <div class="skills-title">
+                    <h2 class="color-blue">Habilidades</h2>
+                </div>
+                <div class="skills-flex">
+                    <div class="logo-html">
+                        <h3 class="color-white padding-10px">HTML</h3>
+                        <img src="/Images/logo-html.png" alt="" class="logo-width">
+                    </div>
+                    <div class="logo-css">
+                        <h3 class="color-white padding-10px">CSS</h3>
+                        <img src="/Images/logo-css.png" alt="" class="logo-width">
+                    </div>
+                    <div class="logo-js">
+                        <h3 class="color-white padding-10px">JavaScript</h3>
+                        <img src="/Images/logo-js.png" alt="" class="logo-width">
+                    </div>
+                    <div class="logo-react">
+                        <h3 class="color-white padding-10px">React</h3>
+                        <img src="/Images/logo-react.png" alt="" class="logo-width">
+                    </div>
+                    <div class="logo-react">
+                        <h3 class="color-white padding-10px">Redux</h3>
+                        <img src="/Images/redux.png" alt="" class="logo-width">
+                    </div>
+                    <div class="logo-react">
+                        <h3 class="color-white padding-10px">React Router</h3>
+                        <img src="/Images/logo-icon-512.png" alt="" class="logo-width">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <div class="experience-all">
+                <div class="experience-title">
+                    <h2 class="color-blue">Experiencia</h2>
+                </div>
+                <div class="experience-flex">
+                    <div class="experience-one">
+                        <div class="experience-one-flex">
+                            <div class="experience-img">
+                                <img src="./Images/academlo-logo.png" alt="" class="experience-logo">
+                            </div>
+                            <div class="experience-info">
+                                <h3>Academlo</h3>
+                                <p class="color-blue">Full-Stack</p>
+                                <p>2022-Actualmente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-two">
+                        <div class="experience-two-flex">
+                            <div class="experience-img">
+                                <img src="./Images/certificado_freecodecamp-removebg-preview.png" alt="" class="experience-logo">
+                            </div>
+                            <div class="experience-info">
+                                <h3>FreeCodeCamp</h3>
+                                <p class="color-blue">Responsive web design</p>
+                                <p>2022-2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-three">
+                        <div class="experience-three-flex">
+                            <div class="experience-img">
+                                <img src="./Images/codecademy.png" alt="" class="experience-logo">
+                            </div>
+                            <div class="experience-info">
+                                <h3>Codecademy</h3>
+                                <p class="color-blue">HTML</p>
+                                <p>2022-2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-four">
+                        <div class="experience-four-flex">
+                            <div class="experience-img">
+                                <img src="./Images/Udemy-Symbol-removebg-preview.png" alt="" class="experience-logo-udemy">
+                            </div>
+                            <div class="experience-info">
+                                <h3>Udemy</h3>
+                                <p class="color-blue">HTML, CSS & JavaScript</p>
+                                <p>2022-2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio width-90" id="portfolio">
+            <div class="portfolio-all">
+                <div class="portfolio-title">
+                    <h2 class="color-blue">Portafolio</h2>
+                </div>
+                <div class="portfolio-flex">
+                    <div class="portafolio-project-one">
+                        <div class="portfolio-project-one-flex">
+                            <div class="portfolio-info">
+                                <p class="padding-10px">Rick and Morty</p>
+                                <a href="https://rickproject.netlify.app/"><img src="/Images/rickandmorty.png" alt="" class="img-portfolio"></a>  
+                            </div>
+                            <div class="portfolio-github">
+                                <img src="./Images/github.svg" alt="icon-github" class="icon-github"> 
+                                <u class="repository"><a href="https://github.com/EdwinCpr/RickAndMorty">Ir al repositorio</a></u>   
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="portafolio-project-two">
+                        <div class="portfolio-project-two-flex">
+                            <div class="portfolio-info">
+                                <p class="padding-10px">CRUD</p>
+                                <a href="https://cruudd.netlify.app/"><img src="/Images/crud.png" alt="" class="img-portfolio"></a>      
+                            </div>
+                            <div class="portfolio-github">
+                                <img src="./Images/github.svg" alt="icon-github" class="icon-github">
+                                <u class="repository"><a href="https://github.com/EdwinCpr/Crud">Ir al repositorio</a></u>  
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="portafolio-project-three">
+                        <div class="portfolio-project-three-flex">
+                            <div class="portfolio-info">
+                                <p class="padding-10px">Ecommerce</p>
+                                <a href="https://magenta-syrniki-68d09a.netlify.app/"><img src="/Images/ecommerce.png" alt="" class="img-portfolio"></a>
+                            </div>
+                            <div class="portfolio-github">
+                                <img src="./Images/github.svg" alt="icon-github" class="icon-github">
+                                <u class="repository"><a href="https://github.com/EdwinCpr/Ecommerce">Ir al repositorio</a></u> 
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact-all width-90">
+                <div class="contact-title">
+                    <h2 class="color-blue">Contactos</h2>
+                </div>
+                <div class="contact-icon-flex">
+                    <div class="icon-whatsapp">
+                        <a href="https://wa.me/584242874025/" class="contact-icon"><img src="/Images/icon-whatsapp.svg" target="_BLANK" alt="icon-whatsapp" class="efect-icon"></a>
+                    </div>
+                    <div class="icon-facebook">
+                        <a href="https://www.facebook.com/codernettt/" class="contact-icon"><img src="/Images/icon-facebook.svg" target="_BLANK" alt="icon-facebook" class="efect-icon"></a>
+                    </div>
+                    <div class="icon-linkedin">
+                        <a href="https://www.linkedin.com/in/edwin-echeverria-9862b41b9/" target="_BLANK" class="contact-icon"><img src="/Images/icon-linkedin.svg" alt="icon-linkedin" class="efect-icon"></a>
+                    </div>
+                    <div class="icon-email">
+                        <a href="mailto:edwindanielnow@gmail.com" class="contact-icon"><img src="/Images/icon-email.svg" target="_BLANK" alt="icon-email" class="efect-icon"></a>
+                    </div>
+                </div>
+                <p class="contact-me">¡No dudes en contactarme!😁</p>
+            </div>
+        </div>
+        <footer>
+            <p>Hecho con ❤ por Edwin</p>
+        </footer>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

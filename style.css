@@ -1,0 +1,439 @@
+/**************** Universal ***************/
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: inherit;
+}
+
+.icon-width {
+  width: 2.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.color-blue {
+  color: #3d68b1;
+}
+
+.logo-width {
+  width: 7rem;
+}
+
+.about-me-title,
+.portfolio-title,
+.skills-title,
+.experience-title,
+.experience-one,
+.experience-two,
+.experience-three,
+.contact-title {
+  margin-bottom: 2rem;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+/*************** Header **************/
+
+header {
+  position: sticky;
+  background-color: #000;
+  height: 5rem;
+  display: flex;
+  text-align: right;
+  width: 100%;
+  top: 0;
+}
+
+.header-menu {
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#nav {
+  background-color: #000;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
+
+.option-menu {
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+a:active {
+  color: #3d68b1;
+  transition: 500ms;
+}
+
+/****************** Front *****************/
+
+.front {
+  background-color: #000;
+  padding: 2rem 0rem;
+}
+
+.front-flex {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.my-image {
+  margin-bottom: 1.5rem;
+  height: 15rem;
+  box-shadow: #3d68b1 1px 1px 1px 6px;
+  border-radius: 50%;
+}
+
+.msj-dedication {
+  margin: auto;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 19.4ch;
+  animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+  overflow:hidden; 
+  }
+  
+  @keyFrames typing {
+  from { width: 0}
+  }
+  
+  @keyFrames blink {
+   50% { border-color: transparent}
+  }
+
+  .msj-greeting {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12.5ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow:hidden; 
+    }
+    
+    @keyFrames typing {
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+    }
+
+/****************** About me ***************/
+
+.about-me {
+  background-color: #000;
+  padding: 2rem 0rem;
+}
+
+.about-me-all {
+  margin: auto;
+  text-align: center;
+}
+
+.about-me-info {
+  margin-bottom: 2rem;
+}
+
+.about-me-cv {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.download-cv {
+  background-color: #3d68b1;
+  padding: .8rem;
+  border-radius: 15px;
+  color: #fff;
+}
+
+/******************* Skills ********************/
+
+.skills {
+  margin: auto;
+}
+
+.skills-all {
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.767),
+      rgba(0, 0, 0, 0.767)
+    ),
+    url("./Images/fondo.png") no-repeat center center / cover;
+  text-align: center;
+  border-radius: 100px;
+  border: 1px dashed #fff;
+  padding: 2rem 0rem;
+}
+
+.skills-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+/****************** Experience ***************/
+
+.experience {
+  padding: 2rem;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+
+.experience-logo {
+  width: 10rem;
+  height: 8rem;
+  object-fit: cover;
+}
+
+.experience-logo-udemy {
+  width: 10rem;
+}
+/******************* Portfolio ******************/
+
+.portfolio {
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+.img-portfolio {
+  width: 15rem;
+  height: 10rem;
+  box-shadow: #3d68b1 -10px 2px 1px 5px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.padding-10px {
+  padding: 10px 0px;
+}
+
+.portafolio-project-two,
+.portafolio-project-three {
+  margin-top: 3rem;
+}
+
+.icon-github {
+  text-align: left;
+  margin-top: 1rem;
+  width: 2rem;
+  margin-bottom: -7px;
+}
+
+.contact-all {
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0rem;
+}
+
+.contact-icon-flex {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me {
+  margin-top: 3rem;
+}
+
+footer {
+  background-color: #3d68b1;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-icon:active {
+  background-color: #3d68b15b;
+}
+
+.contact-icon img:active {
+  padding-top: .50rem;
+  transition: 500ms;
+}
+
+/******************* Mediaquery ******************/
+
+@media (min-width: 768px) {
+  /*************** Universal ***************/
+
+  h1 {
+    font-size: 55px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+  /*************** Header ***************/
+
+  #nav {
+    position: unset;
+    text-align: unset;
+  }
+
+  .hidden {
+    display: unset;
+  }
+
+  .header-btn-menu {
+    display: none;
+  }
+
+  .option-menu {
+    display: unset;
+    padding: 0rem 1rem;
+    width: 95%;
+    font-size: 18px;
+  }
+
+  a:hover {
+    color: #3d68b1;
+    transition: 500ms;
+  }
+
+  /************ Front ************/
+
+  .front {
+    padding: 6rem 0rem;
+    background-image: url("./Images/wave(1).svg");
+    background-repeat: no-repeat;
+  }
+
+  .front-flex {
+    flex-direction: unset;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5%;
+    margin-top: 2rem;
+  }
+
+  .my-image {
+    height: 18rem;
+  }
+
+  /************ About me ************/
+
+  /*************** Skills ****************/
+
+  .skills-flex {
+    flex-direction: unset;
+    gap: 4.5rem;
+    margin: 4rem auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /*************** Experience **************/
+
+  .experience-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  /*************** Portfolio ****************/
+
+  .portafolio-project-two,
+  .portafolio-project-three {
+    margin-top: unset;
+  }
+
+  .portafolio-project-two {
+    padding-top: 3rem;
+  }
+
+  .portafolio-project-three {
+    padding-top: 6rem;
+  }
+
+  .img-portfolio {
+    width: 18rem;
+    height: 16rem;
+    border-radius: 10px;
+  }
+
+  .portfolio-flex {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio-project-three-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /**************** Contact **************/
+
+  .contact-icon:hover {
+    background-color: #3d68b15b;
+  }
+  
+  .contact-icon img:hover {
+    padding-top: .50rem;
+    transition: 500ms;
+  }
+}
+
+/* Mediaquery-1024 */
+
+@media(min-width: 1024px) {
+  .front-flex {
+    gap: 8rem;
+  }
+}
